@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+}
+.bg{
+    height:100%;
+    width:100%;
+    position:fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../picture/4.jpg);   
+}
+div.list
+{
+    box-shadow: 0px 2px 20px 0px black;
+    height: 1.2em;
+    width: 100%;
+    position: absolute;  
+    left:0px;
+    top :0px;
+    text-align: left;
+    font-size: 2em;
+    padding:0.3em 0 0.5em 0;
+    background-color: rgb(88, 88, 197);
+}
+ul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+li
+{
+    margin: auto;
+    color: black;
+}       
+a
+{
+    line-height: 100%;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+div.pho1,div.pho2,div.pho3,div.pho4,div.pho5
+{
+    width: 245px;
+    height: 300px;
+}
+div.pho1{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 300px;
+}
+div.pho2{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 650px;
+}
+div.pho3{
+    position: absolute;
+    margin-top: 250px;
+    margin-left:1000px;
+}
+div.pho4{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 500px;
+}
+div.pho5{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 850px;
+}
