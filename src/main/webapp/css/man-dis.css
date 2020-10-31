@@ -1,0 +1,24 @@
+#t{
+	position: absolute;
+	top:300px;
+	left:400px;
+	color:white;
+}
+
+#t1{
+	font-size:50px;
+}
+
+#t2{
+	font-size:30px;
+}
+
+#t3{
+	width:200px;
+	float:left;
+}
+
+#t4{
+	margin-left: 3px;
+	float: left;
+}

@@ -6,6 +6,7 @@ public class Article {
     private float price;
     private int num;
     private String ownid;
+    private String imgpath;
 
     public String getId() {
         return id;
@@ -39,5 +40,13 @@ public class Article {
 
     public void setOwnid(String ownid) {
         this.ownid = ownid;
+    }
+
+    public String getImgpath() {
+        return imgpath;
+    }
+
+    public void setImgpath(String imgpath) {
+        this.imgpath = imgpath;
     }
 }

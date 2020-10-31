@@ -1,0 +1,27 @@
+.z{
+	width: 100%;
+	font-size:20px;
+}
+
+.z li{
+	margin-right:200px;
+}
+
+#w{
+	position: relative;
+	left:25%;
+}
+
+#ri{
+	position: absolute;
+	right:0px;
+}
+
+#w2{
+	margin-right: -210px;
+}
+#w3
+{
+	position: relative;
+	left:15%;
+}

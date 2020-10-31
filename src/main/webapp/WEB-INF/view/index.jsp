@@ -45,17 +45,24 @@
 
           </div>
           <div class="modal-body">
-            <form class="form-horizontal" role="form" action="WEB-INF/Page/DoRegister.jsp" method="post">
+            <form class="form-horizontal" role="form" action="register" method="post">
               <div class="form-group">
-                <label for="rusername" class="col-sm-2 control-label">username</label>
+                <label for="rusername" class="col-sm-2 control-label">Username</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control"  name="username" id="rusername"placeholder="username">
+                  <input type="text" class="form-control"  name="name" id="rusername"placeholder="username">
                 </div>
               </div>
               <div class="form-group">
-                <label for="rpassword" class="col-sm-2 control-label">password</label>
+                <label for="rpassword" class="col-sm-2 control-label">Password</label>
                 <div class="col-sm-10">
                   <input type="password" class="form-control" name="password" id="rpassword" placeholder="password">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="type" class="col-sm-2 control-label">Type</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" name="type" id="type" placeholder="0-管理员 1-商家 2-普通用户">
                 </div>
               </div>
               <button type="submit" class="btn btn-primary">提交</button>
@@ -71,7 +78,8 @@
 
     <div class="foo">
   <span class="btm">
-    网页个人设计 © 2020 Designed by CHT
+    网页个人设计 © 2020 Designed by RIG team<br>
+    反馈电话:10086
   </span>
 
     </div>

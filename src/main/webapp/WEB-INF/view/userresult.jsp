@@ -16,36 +16,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>result</title>
     <script src="${pageContext.request.contextPath}/js/jquery-3.4.0.min.js"></script>
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet " href="./css/my.css">
-    <link rel="stylesheet"  href="./css/home.css">
-    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap-1.css">
+    <link rel="stylesheet" href="./css/shop-cart.css">
+    <link rel="stylesheet " href="./css/nav.css">
+    <script src="./js/change-bakcground.js"></script>
 </head>
 <body>
-
-
-
-<div class="tab">
-    <table class="table table-bordered ">
-        <thead>
+<div class="panel panel-default" id="n">
+    <div class="panel-heading">用户管理</div>
+    <table class="table">
         <tr>
-            <th>name </th>
-            <th>查看</th>
+            <td><strong>用户名</strong></td>
+            <td></td>
+            <td></td>
         </tr>
-        </thead>
-        <tbody>
-        <c:forEach items="${use}" var="u">
+        <c:forEach items="${users}" var="user">
             <tr>
-                <td>${u.name}</td>
-                <td><a href="Look?name=${u.name}"> 查看</a> </td>
+                <td>${user.name}</td>
+                <td><button type="button" class="btn btn-success " onclick=location.href="Look?name=${user.name}" >查看</button></td>
+                <td><button type="button" class="btn btn-danger" onclick=location.href="Deleteuser?name=${user.name}">注销</button></td>
             </tr>
         </c:forEach>
-        </tbody>
     </table>
-
 </div>
-
+<div>
+    <button onclick="change()" class="c">更换背景</button>
+</div>
 
 
 </body>

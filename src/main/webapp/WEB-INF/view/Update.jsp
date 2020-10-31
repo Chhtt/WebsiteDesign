@@ -34,23 +34,24 @@
                  </div>
 
                  <div class="form-group">
-                     <label for="name" class="col-sm-2 control-label">name</label>
                      <div class="col-sm-10">
-                         <input type="text" class="form-control" name="name" id="name" placeholder="name" value="${a.name}">
+                         名称：${a.name} <input  type="hidden" name="name" value="${a.name}">
                      </div>
                  </div>
 
                  <div class="form-group">
-                     <label for="price" class="col-sm-2 control-label">price</label>
+                     <label for="price" class="col-sm-2 control-label">价格</label>
                      <div class="col-sm-10">
                          <input type="text" class="form-control" name="price" id="price" placeholder="price" value="${a.price}">
                      </div>
+
                  </div>
                  <div class="form-group">
-                     <label for="num" class="col-sm-2 control-label">num</label>
+                     <label for="num" class="col-sm-2 control-label">数量</label>
                      <div class="col-sm-10">
                          <input type="text" class="form-control" name="num" id="num" placeholder="num" value="${a.num}">
                      </div>
+
                  </div>
 
                  <div class="form-group">

@@ -1,0 +1,66 @@
+body{
+	background-image: url("../picture/1.png");
+	background-size: cover;
+}
+
+div.button{
+	left: 30px;
+	top:60px;
+	position: absolute;
+	float: left;
+}
+
+img.button{
+	width:100px;
+}
+
+
+p{
+	color: white;
+	font-size:50px;
+}
+
+/*
+<div class="button">
+	<a href="show.html"><img class="button" src="back.png"></a>
+</div>
+*/
+
+
+
+img.b{
+	height: 400px;
+	padding-top: 20px;
+	padding-left: 250px;
+}
+
+
+div.b{
+	left: 65px;
+	top:150px;
+	position: absolute;
+	float: left;
+}
+
+div.c{
+	position: absolute;
+	float: left;
+	left:900px;
+	top:250px;
+}
+
+.h{
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	height: 50px;
+	width:120px;
+	background: transparent;
+	color:white;
+	font-size: 15px;
+}
+
+#e{
+	position: absolute;
+	left:10px;
+}

@@ -13,42 +13,44 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/bootstrap-1.css">
+    <link rel="stylesheet"  href="./css/sell-welcome.css">
+    <link rel="stylesheet"  href="./css/nav.css" >
+    <script src="./js/change-bakcground.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="bg2">
-        <div class="list">
-            <ul>
-                <li><a href="welcome"> 主页 </a></li>
-                <li> <a href="MyList?username=${user.name}">物品展示</a ></li>
-                <li><a href="userlist">   所有商家</a></li>
 
-            </ul>
-        </div>
 
-        <div class="main">
-            <div class="left">
-                <div class="pho">
-                    <img src="./picture/moren.jpg" alt="">
+    <div class="z">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">${user.name}</a>
                 </div>
-                <p>姓名：<br>${user.name}</p>
+                <div id="w">
+                    <ul class="nav navbar-nav">
+                        <li><a href="toindex"> 主页 </a></li>
+                        <li> <a href="MyList?username=${user.name}">发布物品</a ></li>
+                        <li><a href="selllist?name=${user.name}">订单查询 </a></li>
+                        <li><a href="Logout?name=${user.name}">注销</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="right">
-                <h1 class="center">
-                    Welcome To My Page<br />
-                    I Will Show You Myself<br />
-                </h1>
-                <br/>
-                <br/>
-                <p>
-                    商家简介
-                </p>
-            </div>
-        </div>
+        </nav>
     </div>
 
+    <span id="s">尊敬的${user.name}，欢迎您</span>
+
+    <div>
+        <button onclick="change()" class="c">更换背景</button>
+    </div>
+
+
+
+    <div>
+        <button onclick="change()" class="c">更换背景</button>
+    </div>
 
 
 </body>

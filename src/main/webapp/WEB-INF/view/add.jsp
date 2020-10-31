@@ -20,36 +20,36 @@
             <form class="form-horizontal" role="form" action="Add" method="post">
 
                 <div class="form-group">
-                    <label for="id" class="col-sm-2 control-label">id</label>
+                    <label for="id" class="col-sm-2 control-label"></label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  name="id" id="id" placeholder="id">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="name" class="col-sm-2 control-label">name</label>
+                    <label for="name" class="col-sm-2 control-label">名称</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="name">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="名称">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="price" class="col-sm-2 control-label">price</label>
+                    <label for="price" class="col-sm-2 control-label">价格</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="price" id="price" placeholder="price">
+                        <input type="text" class="form-control" name="price" id="price" placeholder="价格">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="num" class="col-sm-2 control-label">num</label>
+                    <label for="num" class="col-sm-2 control-label">数量</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="num" id="num" placeholder="num">
+                        <input type="text" class="form-control" name="num" id="num" placeholder="数量">
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="ownid" class="col-sm-2 control-label">OwnId</label>
+                    <label for="ownid" class="col-sm-2 control-label">卖家名字</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" name="ownid" id="ownid" placeholder="ownid">
+                        <input type="text" class="form-control" name="ownid" id="ownid" placeholder="卖家名字">
                     </div>
                 </div>
 
